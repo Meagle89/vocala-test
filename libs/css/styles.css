@@ -1,0 +1,43 @@
+::-webkit-input-placeholder {
+    font-style: italic;
+  }
+  :-moz-placeholder {
+    font-style: italic;  
+  }
+  ::-moz-placeholder {
+    font-style: italic;  
+  }
+  :-ms-input-placeholder {  
+    font-style: italic; 
+  }
+
+  .btn:hover {
+    background-color: rgba(51, 51, 51, 0.2);
+    color: #428bca;
+}
+
+.btn {
+    color: #428bca !important;
+}
+.title {
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.modal-title {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { #contact-search { width: 100% !important; }}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { #contact-search { width: 100%  !important; } }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { #contact-search { width: 100% !important; } }
+
+
+
