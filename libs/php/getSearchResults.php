@@ -33,8 +33,12 @@ if ( $result->num_rows > 0 )
         <small><?php if ( $row->email == "" ) { echo "N/A"; } else { echo $row->email; }; ?></small> <br />
     </div>
     </div>
-    <a href="#" onclick ='getContact(this, appendEdit )'role="button" class="edit-contact" data-contactid="<?php echo $row->id ?>" data-toggle="modal" data-target="#edit-contact-modal"><i class="fas fa-pen-square float-right mr-1 text-body"></i> </a>
-    <a href="#" onclick ='getContact(this, appendDeletMsg )' role="button" class="delete-contact" data-contactid="<?php echo $row->id ?>" data-toggle="modal" data-target="#delete-contact-modal" ><i class="fas fa-trash-alt float-right mr-2 text-body"></i> </a>
+    <a href="#" onclick ='getContact(this, appendEdit )'role="button" class="edit-contact" data-contactid="<?php echo $row->id ?>" data-toggle="modal" data-target="#edit-contact-modal">
+    <i class="btn fas fa-user-edit float-right text-body"></i>  
+  </a>
+    <a href="#" onclick ='getContact(this, appendDeletMsg )' role="button" class="delete-contact" data-contactid="<?php echo $row->id ?>" data-toggle="modal" data-target="#delete-contact-modal" >
+    <i class="btn fas fa-minus-circle float-right text-body"></i> 
+  </a>
     </div>
   </div>
   </div>
