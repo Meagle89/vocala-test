@@ -10,9 +10,9 @@ include("./libs/php/getAllContacts.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact App</title>
     <!-- Vendors -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendors/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/84258c69f3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./node_modules/bs4-toast/dist/toast.min.css" />
+    <link rel="stylesheet" href="./vendors/node_modules/bs4-toast/dist/toast.min.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="./libs/css/styles.css">
 </head>
@@ -170,10 +170,10 @@ include("./libs/php/getAllContacts.php");
               </div>
 
             <!-- Vendor Scripts -->
-    <script src="node_modules/jquery@2/jquery-2.2.3.min.js"></script>
+    <script src="vendors/node_modules/jquery@2/jquery-2.2.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/bs4-toast/dist/toast.min.js"></script>
+    <script src="vendors/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendors/node_modules/bs4-toast/dist/toast.min.js"></script>
             <!-- Local Scripts -->
     <script src="./libs/js/app.js"></script>
     
