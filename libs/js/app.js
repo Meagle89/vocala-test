@@ -1,9 +1,9 @@
-    const addContactPath = '../Vocala/libs/php/createContact.php';
+    const addContactPath    = '../Vocala/libs/php/createContact.php';
     const deleteContactPath = '../Vocala/libs/php/deleteContact.php';
-    const editContactPath = '../Vocala/libs/php/editContact.php';
-    const searchPath = '../Vocala/libs/php/getSearchResults.php';
-    const getAllPath = "../Vocala/libs/php/getAllContacts.php";
-    const getByIdPath= "../Vocala/libs/php/getContactById.php";
+    const editContactPath   = '../Vocala/libs/php/editContact.php';
+    const searchPath        = '../Vocala/libs/php/getSearchResults.php';
+    const getAllPath        = "../Vocala/libs/php/getAllContacts.php";
+    const getByIdPath       = "../Vocala/libs/php/getContactById.php";
 
     let contactId;
 
