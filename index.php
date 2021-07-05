@@ -17,7 +17,6 @@ include("./libs/php/getAllContacts.php");
     <link rel="stylesheet" href="./libs/css/styles.css">
 </head>
 <body class="bg-light">
-    <div class="loader"></div>
 
     <nav class="navbar navbar-fill sticky-top navbar-light bg-light">
         <h5 class="title">Contacts</h5>
