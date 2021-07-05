@@ -73,13 +73,9 @@
         request( getByIdPath, "json", callback, data );  
     }
 
-    //MODALS AND FORMS
+    //MODALS
     function clearModal( code, modal ) {
         if( code == "200" ) $( modal ).modal( "hide" );
-    }
-
-    function clearForm( code, form ) {
-        if( code == "200" ) $( form )[0].reset();
     }
 
     //TOASTS
